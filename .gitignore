@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Node
+node_modules/
+
+# Docker volumes
+dify/docker/volumes/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Git backup (temp)
+.git.bak/
+
+# Build artifacts
+build/
+dist/
+*.so
